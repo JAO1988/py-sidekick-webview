@@ -8,7 +8,7 @@ The following files in this repository include:
 
 ![](https://github.com/JAO1988/py-sidekick-webview/blob/main/images/sidekick-webview.gif)
 
-Additionally, `sidekick-server.sh` a simple script fo Sidekick initiliziation can be found in the `server` folder.
+A simple Sidekick initiliziation script, `sidekick-server.sh`, can found in the `server` folder.
 
 ## Prerequisites
 Note: These packages pertain to Arch Linux and Arch-Based Distros:
