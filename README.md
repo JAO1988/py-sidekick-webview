@@ -2,10 +2,12 @@
 Simple set of scripts for running a Python Webview hook of PoE2's Sidekick tool.
 
 ## Usage
-The following files in this repository include "sidekick-webview.py" used to execute the webview Sidekick web-hook and "sidekick-webview.sh" which is a call script that includes wl-clipboard commands to copy, encode, and paste market codes to Sidekick. Additionally, a simple-server script which can be used to launch the initilization of Sidekick can be found in the "server" folder.
+The following files in this repository include "sidekick-webview.py" used to execute the webview Sidekick web-hook and "sidekick-webview.sh" which is a call script that includes wl-clipboard commands to copy, encode, and paste market codes to Sidekick.
+![sidekick webview]([link to image ](https://github.com/JAO1988/py-sidekick-webview/blob/main/images/sidekick-webview.gif)
+Additionally, a simple-server script which can be used to launch the initilization of Sidekick can be found in the "server" folder.
 
 ## Prerequisites
-Note: These packages pertain to Arch Linux and Arch-Based Distros
+Note: These packages pertain to Arch Linux and Arch-Based Distros:
 ```
 wl-clipboard
 dotnet-sdk-8.0
