@@ -47,10 +47,14 @@ dotnet ./bin/Debug/net8.0/Sidekick.dll
 ```
 Additionally, the 'sidekick-server.sh' script can be copied to the `~./Sidekick/src/Sidekick.Web/` directory and ran.
 
-## Script Shortcut
+## Script Shortcut (KDE)
 You can add a shortcut command for `sidekick-webview.sh` in your settings as a custom hotkey toggle:
 ![](https://github.com/JAO1988/py-sidekick-webview/blob/main/images/kde-shortcut.png)
 
 
 ## Additional Notes
+The default webview size can be adjusted under `webview.create_window('Sidekick', url, width=800, height=900, resizable=True)`. 
+Testing of the script has been done in KDE, however other Wayland supported Environemnts (GNOME, Cosmic, Hyprland, QTile) should be accessible so long as the pre-requiste packages are fulfilled.
 
+## Thanks
+A big thank you to Jeager for setting the groundwork on the Python parameters with Webview and a thanks to the Sidekick `https://github.com/Sidekick-Poe/Sidekick` devs for putting together such a wonderful tool.
