@@ -1,5 +1,5 @@
 # py-sidekick-webview
-Simple set of scripts for running a Python Webview hook of PoE2's Sidekick tool in a Linux Wayland session.
+A simple set of bash scripts and Python webview used for running PoE2's Sidekick tool in a Linux Wayland session.
 
 ## Usage
 The following files in this repository include `sidekick-webview.py` used to execute the webview Sidekick web-hook and `sidekick-webview.sh` which is a call script using `wl-clipboard` to copy, encode, and paste market codes to Sidekick.
