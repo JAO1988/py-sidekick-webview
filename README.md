@@ -37,7 +37,7 @@ git pull https://github.com/Sidekick-Poe/Sidekick
 git pull https://github.com/JAO1988/py-sidekick-webview
 ```
 6. Place 'sidekick-webview.py' and 'sidekick-webview.sh' in the `~./Sidekick/src/Sidekick.Web/` folder for ease of access.
-7. Edit 'sidekick-weview.sh' to match the appropriate 'sidekick-webview.py' file location:
+7. Edit 'sidekick-weview.sh' to match the appropriate `sidekick-webview.py` file location:
 ```
 python ".dir/poe.py" "$url"
 ```
