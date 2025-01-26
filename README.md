@@ -38,8 +38,8 @@ git pull https://github.com/Sidekick-Poe/Sidekick
 ```
 git pull https://github.com/JAO1988/py-sidekick-webview
 ```
-6. Place 'sidekick-webview.py' and 'sidekick-webview.sh' in the `~./Sidekick/src/Sidekick.Web/` folder for ease of access.
-7. Edit 'sidekick-weview.sh' to match the appropriate `sidekick-webview.py` file location:
+6. Place `sidekick-webview.py` and `sidekick-webview.sh` in the `~./Sidekick/src/Sidekick.Web/` folder for ease of access.
+7. Edit `sidekick-weview.sh` to match the appropriate `sidekick-webview.py` file location:
 ```
 python ".dir/poe.py" "$url"
 ```
@@ -47,7 +47,7 @@ python ".dir/poe.py" "$url"
 ```
 dotnet ./bin/Debug/net8.0/Sidekick.dll
 ```
-Additionally, the 'sidekick-server.sh' script can be copied to the `~./Sidekick/src/Sidekick.Web/` directory and ran.
+Additionally, the `sidekick-server.sh` script can be copied to the `~./Sidekick/src/Sidekick.Web/` directory and ran.
 
 ## Script Shortcut (KDE)
 You can add a shortcut command for `sidekick-webview.sh` in your settings as a custom hotkey toggle:
@@ -55,7 +55,7 @@ You can add a shortcut command for `sidekick-webview.sh` in your settings as a c
 
 
 ## Additional Notes
-The default webview size can be adjusted under `webview.create_window('Sidekick', url, width=800, height=900, resizable=True)` in `sidekick-webview.py`. 
+The default webview window size can be adjusted under `webview.create_window('Sidekick', url, width=800, height=900, resizable=True)` in `sidekick-webview.py`. 
 
 Testing of the script has been done in KDE, however other Wayland supported environments (GNOME, Cosmic, Hyprland, QTile) should be compatible.
 
