@@ -58,5 +58,5 @@ The default webview size can be adjusted under `webview.create_window('Sidekick'
 Testing of the script has been done in KDE, however other Wayland supported environments (GNOME, Cosmic, Hyprland, QTile) should be compatible.
 
 ## Thanks
-- **Thank you to Jeager for setting the groundwork on the Python parameters with Webview**
-- **And a thank you to the [Sidekick](https://github.com/Sidekick-Poe/Sidekick) devs for putting together such a wonderful tool!**
+- **Jeager - Big props for setting up the python parameters with webview**
+- **[Sidekick](https://github.com/Sidekick-Poe/Sidekick) devs - Excellent work on a fantastic PoE2 Tool!**
