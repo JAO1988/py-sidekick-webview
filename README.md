@@ -61,4 +61,4 @@ Testing of the script has been done in KDE, however other Wayland supported envi
 
 ## Thanks
 - **Jeager - Big props for setting up the python parameters with webview**
-- **[Sidekick](https://github.com/Sidekick-Poe/Sidekick) devs - Excellent work on a fantastic PoE2 Tool!**
+- **[Sidekick](https://github.com/Sidekick-Poe/Sidekick) - Excellent work on a fantastic PoE2 Tool!**
