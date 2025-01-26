@@ -6,7 +6,7 @@ The following files in this repository include "sidekick-webview.py" used to exe
 
 ![](https://github.com/JAO1988/py-sidekick-webview/blob/main/images/sidekick-webview.gif)
 
-Additionally, a simple-server script which can be used to launch the initilization of Sidekick can be found in the "server" folder.
+A simple server bash script, 'sidekick-server.sh' can be found in the `server` folder for Sidekick server initiliziation.
 
 ## Prerequisites
 Note: These packages pertain to Arch Linux and Arch-Based Distros:
@@ -45,4 +45,4 @@ python ".dir/poe.py" "$url"
 ```
 dotnet ./bin/Debug/net8.0/Sidekick.dll
 ```
-Additionally, the 'sidekick-server.sh' script can be copied to the `~./Sidekick/src/Sidekick.Web/` for simple access.
+Additionally, the 'sidekick-server.sh' script can be copied to the `~./Sidekick/src/Sidekick.Web/` directory and ran.
