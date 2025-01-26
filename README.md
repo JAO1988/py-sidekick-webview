@@ -53,8 +53,9 @@ You can add a shortcut command for `sidekick-webview.sh` in your settings as a c
 
 
 ## Additional Notes
-The default webview size can be adjusted under `webview.create_window('Sidekick', url, width=800, height=900, resizable=True)`. 
-Testing of the script has been done in KDE, however other Wayland supported Environemnts (GNOME, Cosmic, Hyprland, QTile) should be accessible so long as the pre-requiste packages are fulfilled.
+The default webview size can be adjusted under `webview.create_window('Sidekick', url, width=800, height=900, resizable=True)` in `sidekick-webview.py`. 
+
+Testing of the script has been done in KDE, however other Wayland supported environemnts (GNOME, Cosmic, Hyprland, QTile) should be compatible.
 
 ## Thanks
 A big thank you to Jeager for setting the groundwork on the Python parameters with Webview and a thanks to the Sidekick `https://github.com/Sidekick-Poe/Sidekick` devs for putting together such a wonderful tool.
