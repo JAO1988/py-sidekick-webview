@@ -3,8 +3,8 @@ A simple set of bash scripts and Python webview used for running PoE2's Sidekick
 
 ## Usage
 The following files in this repository include:
--`sidekick-webview.py`- Used to execute the webview Sidekick web-hook 
--`sidekick-webview.sh`- A script using `wl-clipboard` to copy, encode, and paste market codes to Sidekick.
+- `sidekick-webview.py` - Used to execute the webview Sidekick web-hook 
+- `sidekick-webview.sh` - A script using `wl-clipboard` to copy, encode, and paste market codes to Sidekick.
 
 ![](https://github.com/JAO1988/py-sidekick-webview/blob/main/images/sidekick-webview.gif)
 
