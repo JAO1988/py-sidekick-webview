@@ -46,3 +46,14 @@ python ".dir/poe.py" "$url"
 dotnet ./bin/Debug/net8.0/Sidekick.dll
 ```
 Additionally, the 'sidekick-server.sh' script can be copied to the `~./Sidekick/src/Sidekick.Web/` directory and ran.
+
+## Script Shortcut
+```
+You can add a shortcut command for `sidekick-webview.sh` in your settings as a custom hotkey toggle:
+![](https://github.com/JAO1988/py-sidekick-webview/blob/main/images/kde-shortcut.png)
+```
+
+## Additional Notes
+```
+
+```
