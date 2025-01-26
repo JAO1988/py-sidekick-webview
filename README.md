@@ -53,6 +53,8 @@ Additionally, the `sidekick-server.sh` script can be copied to the `~./Sidekick/
 You can add a shortcut command for `sidekick-webview.sh` in your settings as a custom hotkey toggle:
 ![](https://github.com/JAO1988/py-sidekick-webview/blob/main/images/kde-shortcut.png)
 
+## In-Game
+While Path of Exile 2 is running, copy an item using `Ctrl+C` and then call the `sidekick-webview.py` script. The contents of your clipboard will be copied and encoded as a base64 string within `wl-clipboard` before getting pasted into the URL contents of sidekick.
 
 ## Additional Notes
 The default webview window size can be adjusted under `webview.create_window('Sidekick', url, width=800, height=900, resizable=True)` in `sidekick-webview.py`. 
