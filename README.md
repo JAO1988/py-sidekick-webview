@@ -41,7 +41,7 @@ git pull https://github.com/JAO1988/py-sidekick-webview
 6. Copy `sidekick-webview.py` and `sidekick-webview.sh` to `~./Sidekick/src/Sidekick.Web/`.
 7. Edit `sidekick-weview.sh` to match the appropriate `sidekick-webview.py` file location:
 ```
-python ".dir/poe.py" "$url"
+python ".dir/sidekick-webview.py" "$url"
 ```
 8. Run sidekick by executing the following command:
 ```
