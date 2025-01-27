@@ -33,7 +33,7 @@ git pull https://github.com/Sidekick-Poe/Sidekick
 #EndProject
 ```
 3. Open your terminal in the root directory of Sidekick: (i.e `./home/projects/Sidekick/`)
-4. Run `dotnet build` in your terminal to build Sidekick.
+4. Run `dotnet build`
 5. Clone this repo:
 ```
 git pull https://github.com/JAO1988/py-sidekick-webview
