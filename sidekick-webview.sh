@@ -10,4 +10,4 @@ url="http://localhost:5000/trade/xurl_${item64}"
 sleep 0.1
 python ".dir/sidekick-webview.py" "$url" ## Point to the directory where Sidekick Webview script is located
 
-echo -n "$item" | wl-copy ## Restore original item name in text-string format
+echo -n "$item" | wl-copy ## Restore original item name in standard text format
