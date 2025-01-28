@@ -22,7 +22,7 @@ python
 python-pipx
 ```
 
-## Sidekick Setup
+## Sidekick & py-sidekick-webview Setup
 1. Clone the Sidekick source from the following repository:
 ```
 git pull https://github.com/Sidekick-Poe/Sidekick
