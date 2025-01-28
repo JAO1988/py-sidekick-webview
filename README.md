@@ -23,11 +23,11 @@ python-pipx
 ```
 
 ## Sidekick & py-sidekick-webview Setup
-1. Clone the Sidekick source from the following repository:
+1. Clone Sidekick from it's respective repository:
 ```
 git pull https://github.com/Sidekick-Poe/Sidekick
 ```
-2. Edit the .sln file by commenting (#) or removing the following lines:
+2. Navigate to Sidekick's root folder and edit `Sidekick.sln` by commenting (#) or removing the following lines:
 ```
 #Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Sidekick.Wpf", "src\Sidekick.Wpf\Sidekick.Wpf.csproj", "{0E8A5165-AFEE-42BB-9C96-EA288F613BDE}"
 #EndProject
