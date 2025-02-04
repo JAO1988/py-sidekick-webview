@@ -52,7 +52,7 @@ dotnet ./bin/Debug/net8.0/Sidekick.dll
 ALternatively, `sidekick-server.sh` can be copied to `~./Sidekick/src/Sidekick.Web/` and ran to execute `Sidekick.dll`.
 
 ## Docker Container Setup
-If you've built Sidekick in a Docker container, edit `sidekick-webview.py` and `sidekick-webview.sh` to match the appropriate container address, replacing `http://localhost:5000/`:
+If you've built Sidekick in a Docker container, edit `sidekick-webview.py` and `sidekick-webview.sh` to match the appropriate container address replacing `http://localhost:5000/`:
 ```
 if len(sys.argv) > 1:
     url = sys.argv[1]
