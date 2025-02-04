@@ -20,6 +20,8 @@ npm
 nodejs
 python
 python-pipx
+python-pywebview
+webviewer
 ```
 
 ## Sidekick & py-sidekick-webview Setup
