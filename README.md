@@ -51,6 +51,19 @@ dotnet ./bin/Debug/net8.0/Sidekick.dll
 ```
 ALternatively, `sidekick-server.sh` can be copied to `~./Sidekick/src/Sidekick.Web/` and ran to execute `Sidekick.dll`.
 
+## Docker Container Setup
+If you've built Sidekick in a Docker container, edit `sidekick-webview.py` and `sidekick-webview.sh` to match the appropriate container address, replacing `http://localhost:5000/`:
+```
+if len(sys.argv) > 1:
+    url = sys.argv[1]
+else:
+    url = 'http://XXX.XXX.XXX.XXX:5000'
+
+item64=$(echo -n "$new_clip" | base64)
+url="http://XXX.XXX.XXX.XXX:5000/trade/xurl_${item64}"
+sleep 0.1
+```
+
 ## Script Shortcut (KDE)
 You can add a shortcut command for `sidekick-webview.sh` in Settings as a custom hotkey toggle:
 ![](https://github.com/JAO1988/py-sidekick-webview/blob/main/images/kde-shortcut.png)
