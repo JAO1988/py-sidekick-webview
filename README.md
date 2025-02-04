@@ -57,10 +57,10 @@ If you've built Sidekick in a Docker container, edit `sidekick-webview.py` and `
 if len(sys.argv) > 1:
     url = sys.argv[1]
 else:
-    url = 'http://XXX.XXX.XXX.XXX:5000'
+    url = '**http://XXX.XXX.XXX.XXX:5000**'
 
 item64=$(echo -n "$new_clip" | base64)
-url="http://XXX.XXX.XXX.XXX:5000/trade/xurl_${item64}"
+url="**http://XXX.XXX.XXX.XXX:5000**/trade/xurl_${item64}"
 sleep 0.1
 ```
 
