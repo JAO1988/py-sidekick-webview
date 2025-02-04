@@ -13,15 +13,15 @@ A Sidekick initiliziation bash script, `sidekick-server.sh`, can found in the `s
 ## Prerequisites
 Note: These packages pertain to Arch Linux and Arch-Based Distros:
 ```
-wl-clipboard
-dotnet-sdk-8.0
 aspnet-runtime-8.0
-npm
+dotnet-sdk-8.0
 nodejs
+npm
 python
 python-pipx
 python-pywebview
 webviewer
+wl-clipboard
 ```
 
 ## Sidekick & py-sidekick-webview Setup
