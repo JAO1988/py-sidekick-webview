@@ -22,6 +22,7 @@ python-pipx
 python-pywebview
 webviewer
 wl-clipboard
+ydotool
 ```
 
 ## Sidekick & py-sidekick-webview Setup
