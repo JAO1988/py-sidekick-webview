@@ -1,5 +1,8 @@
 #!/bin/bash
 
+#send Ctrl c to active windows.
+ydotool key -d 25 29:1 46:1 46:0 29:0 
+
 item=$(wl-paste) ## Pull DE/WM clipboard content to Wayland clipboard (wl-clipboard)
 sleep 0.1
 new_clip=$(wl-paste)
